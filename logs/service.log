@@ -1,0 +1,927 @@
+2024-06-14 16:36:51,766 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 16:37:37,922 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '75', 'content-type': 'application/json'}
+2024-06-14 16:37:37,930 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司'}
+2024-06-14 16:37:37,944 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:37:40,014 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:37:40,152 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:37:41,581 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:37:41,592 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:37:43,651 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '87', 'content-type': 'application/json'}
+2024-06-14 16:37:43,652 - api.py[line:26] - INFO: Request Body: {'content': '查询杭州亚信科技有限公司'}
+2024-06-14 16:37:43,655 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:37:45,656 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:37:45,789 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:37:47,308 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:37:47,314 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:37:49,365 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:37:49,366 - api.py[line:26] - INFO: Request Body: {'content': '帮我介绍一下杭州亚信科技有限公司'}
+2024-06-14 16:37:49,368 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:37:51,268 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:37:51,406 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:37:52,939 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:37:52,945 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我介绍一下杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:37:54,983 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-06-14 16:37:54,984 - api.py[line:26] - INFO: Request Body: {'content': '查询杭州亚信科技有限公司的信息'}
+2024-06-14 16:37:54,985 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:37:56,906 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:37:57,036 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:37:58,624 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:37:58,636 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询杭州亚信科技有限公司的信息", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:00,678 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:38:00,679 - api.py[line:26] - INFO: Request Body: {'content': '查一下杭州亚信科技有限公司的情况'}
+2024-06-14 16:38:00,681 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:02,669 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:02,804 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:05,624 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:05,636 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查一下杭州亚信科技有限公司的情况", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:07,695 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:38:07,697 - api.py[line:26] - INFO: Request Body: {'content': '帮我找到杭州亚信科技有限公司'}
+2024-06-14 16:38:07,699 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:09,774 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:09,909 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:11,375 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:11,386 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我找到杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:13,427 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:38:13,427 - api.py[line:26] - INFO: Request Body: {'content': '查询杭州亚信科技有限公司企业画像'}
+2024-06-14 16:38:13,429 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:15,364 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:15,505 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:16,977 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:16,983 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询杭州亚信科技有限公司企业画像", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:19,027 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:38:19,027 - api.py[line:26] - INFO: Request Body: {'content': '提供杭州亚信科技有限公司相关信息'}
+2024-06-14 16:38:19,028 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:20,980 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:21,129 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:22,627 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:22,635 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "提供杭州亚信科技有限公司相关信息", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:24,676 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '117', 'content-type': 'application/json'}
+2024-06-14 16:38:24,676 - api.py[line:26] - INFO: Request Body: {'content': '我要杭州亚信科技有限公司的所有资料'}
+2024-06-14 16:38:24,678 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:26,595 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:26,730 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:28,333 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:28,339 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我要杭州亚信科技有限公司的所有资料", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:30,376 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '93', 'content-type': 'application/json'}
+2024-06-14 16:38:30,376 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司有什么'}
+2024-06-14 16:38:30,377 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:32,205 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:32,378 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:33,848 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:33,856 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有什么", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:35,913 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-06-14 16:38:35,915 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司是做什么的'}
+2024-06-14 16:38:35,917 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:38:37,869 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 16:38:38,007 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:39,692 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:39,699 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司是做什么的", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:41,749 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:38:41,750 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司主营业务'}
+2024-06-14 16:38:41,751 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:38:41,881 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:43,370 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:43,376 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司主营业务", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:45,425 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:38:45,425 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司所属行业'}
+2024-06-14 16:38:45,427 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:38:45,560 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:47,028 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:47,035 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司所属行业", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:49,068 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:38:49,068 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司在不在网'}
+2024-06-14 16:38:49,070 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:38:49,213 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:50,734 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:50,740 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司在不在网", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:52,788 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:38:52,789 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司注册资本'}
+2024-06-14 16:38:52,795 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:38:52,940 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:54,476 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:54,494 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司注册资本", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:38:56,518 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:38:56,519 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司注册时间'}
+2024-06-14 16:38:56,520 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:38:56,663 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:38:58,134 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:38:58,140 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司注册时间", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:00,168 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:39:00,169 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司业务订购情况'}
+2024-06-14 16:39:00,170 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:00,304 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:01,836 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:01,842 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司业务订购情况", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:03,873 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:39:03,873 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司订了什么'}
+2024-06-14 16:39:03,874 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:04,027 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:05,581 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:05,587 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司订了什么", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:07,623 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:39:07,623 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司订了什么产品'}
+2024-06-14 16:39:07,624 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:07,772 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:09,451 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:09,457 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司订了什么产品", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:11,488 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '123', 'content-type': 'application/json'}
+2024-06-14 16:39:11,488 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司办了移动业务吗？'}
+2024-06-14 16:39:11,489 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:11,639 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:13,189 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:13,197 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司办了移动业务吗？", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:15,230 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:39:15,230 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司有几条宽带？'}
+2024-06-14 16:39:15,232 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:15,369 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:16,969 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:16,975 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有几条宽带？", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:18,998 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:39:18,998 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司收入情况'}
+2024-06-14 16:39:19,000 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:19,142 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:20,653 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:20,659 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司收入情况", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:22,702 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-06-14 16:39:22,702 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司有没有欠费'}
+2024-06-14 16:39:22,704 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:22,836 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:24,333 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:24,345 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有没有欠费", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:26,380 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-06-14 16:39:26,380 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司有多少成员'}
+2024-06-14 16:39:26,381 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:26,514 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:27,959 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:27,965 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有多少成员", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:30,014 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '117', 'content-type': 'application/json'}
+2024-06-14 16:39:30,014 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司有多少关键人物'}
+2024-06-14 16:39:30,015 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:30,148 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:31,858 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:31,866 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有多少关键人物", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:33,918 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '141', 'content-type': 'application/json'}
+2024-06-14 16:39:33,920 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司成员的业务办理情况如何'}
+2024-06-14 16:39:33,922 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:34,062 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:35,630 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:35,635 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司成员的业务办理情况如何", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:37,675 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '153', 'content-type': 'application/json'}
+2024-06-14 16:39:37,677 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司关键人物的业务办理情况如何'}
+2024-06-14 16:39:37,678 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:37,815 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:39,390 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:39,396 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司关键人物的业务办理情况如何", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:41,434 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-06-14 16:39:41,435 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司业务渗透率'}
+2024-06-14 16:39:41,441 - pipeline.py[line:38] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 16:39:41,583 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:43,250 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:43,255 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司业务渗透率", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:45,315 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '129', 'content-type': 'application/json'}
+2024-06-14 16:39:45,315 - api.py[line:26] - INFO: Request Body: {'content': '最近有人拜访过杭州亚信科技有限公司吗？'}
+2024-06-14 16:39:45,316 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:39:47,375 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 16:39:47,521 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:49,111 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:49,117 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "最近有人拜访过杭州亚信科技有限公司吗？", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:51,141 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:39:51,141 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司有人去过吗？'}
+2024-06-14 16:39:51,142 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:39:53,047 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 16:39:53,185 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:39:54,677 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:39:54,689 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有人去过吗？", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:39:56,740 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-06-14 16:39:56,740 - api.py[line:26] - INFO: Request Body: {'content': '杭州亚信科技有限公司我去过吗？'}
+2024-06-14 16:39:56,743 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:39:58,739 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 16:39:58,876 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:00,333 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:40:00,339 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司我去过吗？", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:40:02,382 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '135', 'content-type': 'application/json'}
+2024-06-14 16:40:02,382 - api.py[line:26] - INFO: Request Body: {'content': '查下杭州亚信科技有限公司最近一次打卡时间'}
+2024-06-14 16:40:02,384 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:04,376 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 16:40:04,506 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:06,090 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 16:40:06,095 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查下杭州亚信科技有限公司最近一次打卡时间", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 16:40:08,126 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '69', 'content-type': 'application/json'}
+2024-06-14 16:40:08,126 - api.py[line:26] - INFO: Request Body: {'content': '给企业推荐专线产品'}
+2024-06-14 16:40:08,127 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:10,013 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:10,142 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:11,532 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:11,548 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "给企业推荐专线产品", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:13,604 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '81', 'content-type': 'application/json'}
+2024-06-14 16:40:13,604 - api.py[line:26] - INFO: Request Body: {'content': '给客户推荐网络解决方案'}
+2024-06-14 16:40:13,606 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:15,540 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:15,677 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:17,133 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:17,144 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "给客户推荐网络解决方案", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:19,178 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 16:40:19,179 - api.py[line:26] - INFO: Request Body: {'content': '如何给企业推荐合适的专线产品'}
+2024-06-14 16:40:19,180 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:21,129 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:21,260 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:22,661 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:22,667 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "如何给企业推荐合适的专线产品", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:24,707 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 16:40:24,707 - api.py[line:26] - INFO: Request Body: {'content': '我们有什么专线产品可以给企业推荐'}
+2024-06-14 16:40:24,709 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:26,738 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:26,870 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:28,328 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:28,336 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我们有什么专线产品可以给企业推荐", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:30,393 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '81', 'content-type': 'application/json'}
+2024-06-14 16:40:30,395 - api.py[line:26] - INFO: Request Body: {'content': '怎么给客户推荐专线产品'}
+2024-06-14 16:40:30,400 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:32,360 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:32,495 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:34,088 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:34,093 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "怎么给客户推荐专线产品", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:36,140 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '81', 'content-type': 'application/json'}
+2024-06-14 16:40:36,141 - api.py[line:26] - INFO: Request Body: {'content': '给客户推荐专线解决方案'}
+2024-06-14 16:40:36,142 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:38,019 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:38,152 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:39,658 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:39,663 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "给客户推荐专线解决方案", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:41,700 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '125', 'content-type': 'application/json'}
+2024-06-14 16:40:41,701 - api.py[line:26] - INFO: Request Body: {'content': '客户网络预算为*元/月，推荐哪款专线合适'}
+2024-06-14 16:40:41,702 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:43,813 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:43,947 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:45,373 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:45,385 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "客户网络预算为*元/月，推荐哪款专线合适", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:47,436 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '141', 'content-type': 'application/json'}
+2024-06-14 16:40:47,437 - api.py[line:26] - INFO: Request Body: {'content': '企业上网主要进行直播，推荐多少带宽专线合适'}
+2024-06-14 16:40:47,439 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:49,534 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:49,674 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:51,021 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:51,033 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "企业上网主要进行直播，推荐多少带宽专线合适", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:53,051 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '130', 'content-type': 'application/json'}
+2024-06-14 16:40:53,051 - api.py[line:26] - INFO: Request Body: {'content': '客户上网终端有*个，推荐多少速率专线合适'}
+2024-06-14 16:40:53,053 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:40:55,026 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 16:40:55,156 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 16:40:56,505 - pipeline.py[line:69] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 16:40:56,511 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "客户上网终端有*个，推荐多少速率专线合适", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 16:40:58,553 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '81', 'content-type': 'application/json'}
+2024-06-14 16:40:58,553 - api.py[line:26] - INFO: Request Body: {'content': '帮我介绍一下互联网专线'}
+2024-06-14 16:40:58,554 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:00,469 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 16:41:00,593 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:00,599 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我介绍一下互联网专线", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:02,648 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '87', 'content-type': 'application/json'}
+2024-06-14 16:41:02,648 - api.py[line:26] - INFO: Request Body: {'content': '怎么向客户介绍互联网专线'}
+2024-06-14 16:41:02,649 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:04,514 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 16:41:04,646 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:04,652 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "怎么向客户介绍互联网专线", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:06,677 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '63', 'content-type': 'application/json'}
+2024-06-14 16:41:06,677 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线是什么'}
+2024-06-14 16:41:06,678 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:08,653 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 16:41:08,780 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:08,785 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线是什么", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:10,826 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '75', 'content-type': 'application/json'}
+2024-06-14 16:41:10,827 - api.py[line:26] - INFO: Request Body: {'content': '一句话介绍互联网专线'}
+2024-06-14 16:41:10,828 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:12,648 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 16:41:12,771 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:12,777 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "一句话介绍互联网专线", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:14,800 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '75', 'content-type': 'application/json'}
+2024-06-14 16:41:14,801 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线有什么功能'}
+2024-06-14 16:41:14,807 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:16,617 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:16,740 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:16,746 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线有什么功能", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:18,800 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '75', 'content-type': 'application/json'}
+2024-06-14 16:41:18,800 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线有什么优势'}
+2024-06-14 16:41:18,802 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:20,811 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:20,935 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:20,941 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线有什么优势", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:22,999 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '69', 'content-type': 'application/json'}
+2024-06-14 16:41:23,000 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线资费信息'}
+2024-06-14 16:41:23,001 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:25,153 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:25,284 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:25,289 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线资费信息", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:27,322 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '69', 'content-type': 'application/json'}
+2024-06-14 16:41:27,322 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线怎么收费'}
+2024-06-14 16:41:27,323 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:29,420 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:29,572 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:29,579 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线怎么收费", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:31,608 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '75', 'content-type': 'application/json'}
+2024-06-14 16:41:31,610 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线有什么优惠'}
+2024-06-14 16:41:31,616 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:33,465 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:33,595 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:33,600 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线有什么优惠", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:35,645 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '87', 'content-type': 'application/json'}
+2024-06-14 16:41:35,652 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线应用场景有哪些'}
+2024-06-14 16:41:35,653 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:37,529 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:37,659 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:37,665 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线应用场景有哪些", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 16:41:39,704 - api.py[line:22] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '75', 'content-type': 'application/json'}
+2024-06-14 16:41:39,705 - api.py[line:26] - INFO: Request Body: {'content': '互联网专线有什么特点'}
+2024-06-14 16:41:39,711 - pipeline.py[line:38] - INFO: 意图规则分类结果: others
+2024-06-14 16:41:42,014 - pipeline.py[line:46] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 16:41:42,139 - pipeline.py[line:60] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 16:41:42,145 - api.py[line:34] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线有什么特点", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:04:49,105 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:04:49,130 - pipeline_asyn.py[line:39] - INFO: 意图规则分类结果: others
+2024-06-14 17:04:51,529 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:04:51,531 - pipeline_asyn.py[line:47] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:04:51,669 - pipeline_asyn.py[line:61] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:04:53,457 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:04:53,462 - pipeline_asyn.py[line:70] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:08:18,553 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:08:18,580 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,582 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,584 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,586 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,588 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,590 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,591 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,593 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,594 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,595 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,597 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:18,599 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:18,737 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:18,739 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:18,872 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:18,874 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,014 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,017 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,151 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,153 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,284 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,285 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,421 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,423 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,566 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,569 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,704 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,706 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:19,854 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:19,856 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,000 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,002 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,137 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,182 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,335 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,337 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,472 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,473 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,619 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,621 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,764 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,766 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:20,908 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:20,910 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:08:21,045 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:21,047 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,048 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,050 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,052 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,054 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,056 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,129 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,131 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,133 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,135 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,137 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,139 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,141 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,143 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,145 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,146 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,148 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,151 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,153 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,155 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,157 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,159 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,161 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:21,163 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:08:49,283 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,285 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:08:49,770 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,774 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:08:49,912 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:49,918 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,918 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,919 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,920 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,920 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,921 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,921 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,922 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,925 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,926 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,927 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,928 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,929 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,930 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:49,932 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:50,065 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:50,067 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:08:50,211 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:50,218 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:50,348 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:50,350 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:08:50,495 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:50,502 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:50,643 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:50,645 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:50,832 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:50,834 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:50,965 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:50,972 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:51,104 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:51,112 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,113 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,114 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,114 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,115 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,116 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,116 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,117 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,117 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,118 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,118 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,119 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,120 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,120 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,121 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,121 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,122 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,122 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,123 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:51,124 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:51,257 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:51,264 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:51,397 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:51,398 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:51,548 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:51,554 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:51,689 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:51,696 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:51,826 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:51,833 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:51,972 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:51,977 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:52,123 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:52,125 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:08:52,261 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:52,268 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:08:52,400 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:08:52,407 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:52,575 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:52,577 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:52,714 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:52,716 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:52,850 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:52,851 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:52,991 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:52,993 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:53,133 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,135 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:53,270 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,272 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:53,411 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,412 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:53,553 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,555 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:53,701 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,702 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:08:53,838 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,840 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 17:08:53,991 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:53,992 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 17:08:54,166 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:54,168 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 17:08:54,338 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:54,340 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:54,491 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:54,493 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:54,634 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:54,635 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业信息问答
+2024-06-14 17:08:54,775 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:08:54,776 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:08:54,780 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:08:54,940 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:09:08,479 - pipeline_asyn.py[line:73] - ERROR: 大模型实体抽取接口调用失败: 
+2024-06-14 17:09:08,479 - pipeline_asyn.py[line:73] - ERROR: 大模型实体抽取接口调用失败: 
+2024-06-14 17:10:00,128 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:10:00,146 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,148 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,150 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,152 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,154 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,156 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,157 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,159 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,160 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,162 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,163 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:00,165 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:00,306 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:00,308 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:00,443 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:00,445 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:00,583 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:00,586 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:00,718 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:00,720 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:00,852 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:00,854 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:00,986 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:00,988 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,119 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,121 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,253 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,255 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,386 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,388 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,533 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,535 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,679 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,681 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,861 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,863 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:01,996 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:01,998 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:02,129 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:02,131 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:02,264 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:02,266 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:02,398 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:02,400 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:10:02,532 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:10:02,534 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,536 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,538 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,539 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,541 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,542 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,544 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,616 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,618 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,620 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,622 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,624 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,626 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,628 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,630 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,631 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,633 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,635 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,637 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,638 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,640 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,642 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,643 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:10:02,645 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:11:17,875 - pipeline_asyn.py[line:50] - ERROR: 大模型意图分类接口调用失败: All connection attempts failed
+2024-06-14 17:17:42,700 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:17:42,728 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,730 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,733 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,735 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,737 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,738 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,741 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,742 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,744 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,745 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,747 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:17:42,751 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:17:42,888 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:42,890 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:17:43,022 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:43,024 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:17:43,159 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:43,172 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:17:43,306 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:43,308 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:17:43,438 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:43,440 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:17:43,571 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:52,956 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:52,958 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:52,959 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:52,960 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:52,961 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:52,962 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:17:52,969 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:17:52,975 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:17:52,983 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:17:52,991 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:17:53,000 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,001 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:17:53,119 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,124 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:53,276 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:53,278 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,279 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,279 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,280 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,280 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,281 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,281 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,282 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,282 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,283 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:53,287 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:53,423 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:53,425 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:53,558 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:53,559 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:53,708 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:53,709 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:53,843 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:53,845 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:53,976 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:53,985 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:54,137 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:54,139 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:54,271 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:54,273 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:54,406 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:54,407 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:54,542 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:54,544 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:17:54,675 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:17:59,996 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:59,997 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:17:59,998 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,005 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,018 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,019 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,020 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,021 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,029 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,037 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,055 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,056 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,058 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,065 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,077 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,078 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,079 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,080 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,088 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:18:00,090 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,097 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:18:00,106 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:09,916 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:19:09,942 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,944 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,946 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,948 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,950 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,952 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,954 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,955 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,957 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,958 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,959 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:19:09,962 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:19:10,101 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:10,102 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:19:10,236 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:10,238 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:19:10,373 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:10,388 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:19:10,524 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:10,526 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:19:10,656 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:10,657 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:19:10,792 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:19,755 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,756 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,758 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:19,765 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:19,772 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,774 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:19,781 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,782 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,782 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,784 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:19,792 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:19,799 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:19,979 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:19,981 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,107 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,108 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,109 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,110 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,110 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,111 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,111 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,112 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,112 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,113 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,113 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:20,117 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,254 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,256 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,393 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,395 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,542 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,543 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,683 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,685 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,818 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,820 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:20,952 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:20,954 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:21,086 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:21,088 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:21,221 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:21,222 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:21,354 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:21,355 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:19:21,497 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:19:26,795 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,796 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,797 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,804 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,813 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,814 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,816 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,824 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,825 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,825 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,826 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,826 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,827 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,828 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:19:26,829 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,838 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,845 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,854 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,861 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,871 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,876 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:19:26,885 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:24:43,170 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:25:15,840 - api_asyn.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.0', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 17:25:15,847 - api_asyn.py[line:25] - INFO: Request Body: {'content': '如何给企业推荐合适的专线产品'}
+2024-06-14 17:25:15,861 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:25:15,863 - api_asyn.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.0', 'content-length': '111', 'content-type': 'application/json'}
+2024-06-14 17:25:15,863 - api_asyn.py[line:25] - INFO: Request Body: {'content': '杭州亚信科技有限公司有几条宽带？'}
+2024-06-14 17:25:15,864 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:25:16,002 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:25:16,003 - api_asyn.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.0', 'content-length': '87', 'content-type': 'application/json'}
+2024-06-14 17:25:16,003 - api_asyn.py[line:25] - INFO: Request Body: {'content': '怎么向客户介绍互联网专线'}
+2024-06-14 17:25:16,004 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:25:16,009 - api_asyn.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.0', 'content-length': '39', 'content-type': 'application/json'}
+2024-06-14 17:25:16,009 - api_asyn.py[line:25] - INFO: Request Body: {'content': '我要下班'}
+2024-06-14 17:25:16,010 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:25:16,010 - api_asyn.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.0', 'content-length': '99', 'content-type': 'application/json'}
+2024-06-14 17:25:16,011 - api_asyn.py[line:25] - INFO: Request Body: {'content': '帮我找到杭州亚信科技有限公司'}
+2024-06-14 17:25:16,012 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:25:16,013 - api_asyn.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.0', 'content-length': '69', 'content-type': 'application/json'}
+2024-06-14 17:25:16,014 - api_asyn.py[line:25] - INFO: Request Body: {'content': '互联网专线资费信息'}
+2024-06-14 17:25:16,015 - pipeline_asyn.py[line:40] - INFO: 意图规则分类结果: others
+2024-06-14 17:25:20,315 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:20,316 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:20,317 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:25:20,323 - api_asyn.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有几条宽带？", "intent": 999, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:25:20,324 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 其他
+2024-06-14 17:25:20,452 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:25:20,454 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:20,455 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:20,455 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:20,457 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:25:20,590 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:25:20,591 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:25:20,722 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:25:20,723 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:25:20,854 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:25:20,859 - api_asyn.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "怎么向客户介绍互联网专线", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:25:20,862 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:20,865 - pipeline_asyn.py[line:48] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:25:20,992 - pipeline_asyn.py[line:62] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:25:20,998 - api_asyn.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线资费信息", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:25:23,087 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:23,089 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:25:23,095 - api_asyn.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我要下班", "intent": 1, "type": 2, "text": ""}, "msg": "success"}
+2024-06-14 17:25:23,118 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:23,119 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:25:23,125 - api_asyn.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "如何给企业推荐合适的专线产品", "intent": 1, "type": 2, "text": ""}, "msg": "success"}
+2024-06-14 17:25:23,199 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:25:23,200 - pipeline_asyn.py[line:71] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:25:23,206 - api_asyn.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我找到杭州亚信科技有限公司", "intent": 1, "type": 2, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:33:37,277 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:33:44,953 - api_asyn.py[line:41] - INFO: 意图规则分类结果: others
+2024-06-14 17:33:44,965 - api_asyn.py[line:41] - INFO: 意图规则分类结果: others
+2024-06-14 17:33:44,967 - api_asyn.py[line:41] - INFO: 意图规则分类结果: others
+2024-06-14 17:33:44,969 - api_asyn.py[line:41] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:33:45,108 - api_asyn.py[line:63] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:33:45,111 - api_asyn.py[line:41] - INFO: 意图规则分类结果: others
+2024-06-14 17:33:45,112 - api_asyn.py[line:41] - INFO: 意图规则分类结果: others
+2024-06-14 17:33:48,717 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:48,723 - api_asyn.py[line:72] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:33:48,736 - api_asyn.py[line:110] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有几条宽带？", "intent": 999, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:33:48,810 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:48,812 - api_asyn.py[line:49] - INFO: 大模型意图分类结果: 其他
+2024-06-14 17:33:48,945 - api_asyn.py[line:63] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:33:49,217 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:49,218 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:49,225 - api_asyn.py[line:49] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:33:49,369 - api_asyn.py[line:63] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:33:49,370 - api_asyn.py[line:49] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:33:49,510 - api_asyn.py[line:63] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:33:51,039 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:51,044 - api_asyn.py[line:72] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:33:51,049 - api_asyn.py[line:110] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我要下班", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 17:33:51,555 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:51,557 - api_asyn.py[line:72] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:33:51,563 - api_asyn.py[line:110] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "如何给企业推荐合适的专线产品", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 17:33:51,652 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:51,653 - api_asyn.py[line:72] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:33:51,659 - api_asyn.py[line:110] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我找到杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:33:51,734 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:51,739 - api_asyn.py[line:49] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:33:51,877 - api_asyn.py[line:63] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:33:51,883 - api_asyn.py[line:110] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "怎么向客户介绍互联网专线", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:33:54,279 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:33:54,283 - api_asyn.py[line:49] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:33:54,408 - api_asyn.py[line:63] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:33:54,413 - api_asyn.py[line:110] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线资费信息", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:39:25,631 - my_logger.py[line:44] - INFO: START OK !!!
+2024-06-14 17:39:39,992 - api_asyn.py[line:109] - INFO: Received query: 帮我找到杭州亚信科技有限公司
+2024-06-14 17:39:40,030 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:39:40,032 - api_asyn.py[line:109] - INFO: Received query: 互联网专线资费信息
+2024-06-14 17:39:40,033 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:39:40,034 - api_asyn.py[line:109] - INFO: Received query: 如何给企业推荐合适的专线产品
+2024-06-14 17:39:40,036 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:39:40,037 - api_asyn.py[line:109] - INFO: Received query: 杭州亚信科技有限公司有几条宽带？
+2024-06-14 17:39:40,038 - api_asyn.py[line:42] - INFO: 意图规则分类结果: Q&A_on_enterprise_information
+2024-06-14 17:39:40,173 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:39:40,174 - api_asyn.py[line:109] - INFO: Received query: 我要下班
+2024-06-14 17:39:40,175 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:39:40,175 - api_asyn.py[line:109] - INFO: Received query: 怎么向客户介绍互联网专线
+2024-06-14 17:39:40,178 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:39:44,324 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:44,325 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:44,326 - api_asyn.py[line:73] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:39:44,333 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "杭州亚信科技有限公司有几条宽带？", "intent": 0, "type": 1, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:39:44,334 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 其他
+2024-06-14 17:39:44,466 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:39:44,468 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:44,468 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:44,470 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 专线产品概述
+2024-06-14 17:39:44,601 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:39:44,606 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "怎么向客户介绍互联网专线", "intent": 1, "type": 1, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:39:44,608 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:39:44,738 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:39:44,745 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线资费信息", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
+2024-06-14 17:39:47,251 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:47,253 - api_asyn.py[line:73] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:39:47,258 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我要下班", "intent": 999, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 17:39:47,407 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:47,412 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 专线解决方案
+2024-06-14 17:39:47,544 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:39:49,590 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:49,592 - api_asyn.py[line:73] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:39:49,599 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "如何给企业推荐合适的专线产品", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 17:39:49,797 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:49,800 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:39:49,933 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:39:51,834 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:51,839 - api_asyn.py[line:73] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:39:51,850 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我找到杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:39:52,283 - api_asyn.py[line:109] - INFO: Received query: 帮我找到杭州亚信科技有限公司
+2024-06-14 17:39:52,284 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:39:54,725 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:54,730 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 企业概述
+2024-06-14 17:39:54,863 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:39:56,813 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:39:56,814 - api_asyn.py[line:73] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——杭州亚信科技有限公司
+2024-06-14 17:39:56,819 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "帮我找到杭州亚信科技有限公司", "intent": 0, "type": 0, "text": "杭州亚信科技有限公司"}, "msg": "success"}
+2024-06-14 17:50:38,161 - api_asyn.py[line:109] - INFO: Received query: ?????????
+2024-06-14 17:50:38,162 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:50:40,592 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:50:40,593 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 其他
+2024-06-14 17:50:40,719 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——None，实体内容——None
+2024-06-14 17:50:42,662 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:50:42,665 - api_asyn.py[line:73] - INFO: 大模型企业名称实体提取结果: 实体类型——enterprise_name，实体内容——
+2024-06-14 17:50:42,671 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "?????????", "intent": 999, "type": 0, "text": ""}, "msg": "success"}
+2024-06-14 17:55:07,040 - api_asyn.py[line:109] - INFO: Received query: 互联网专线资费信息
+2024-06-14 17:55:07,041 - api_asyn.py[line:42] - INFO: 意图规则分类结果: others
+2024-06-14 17:55:09,324 - _client.py[line:1773] - INFO: HTTP Request: POST http://10.1.251.235:3000/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-14 17:55:09,326 - api_asyn.py[line:50] - INFO: 大模型意图分类结果: 专线产品信息问答
+2024-06-14 17:55:09,458 - api_asyn.py[line:64] - INFO: 实体规则提取结果: 实体类型——product_name，实体内容——互联网专线
+2024-06-14 17:55:09,464 - api_asyn.py[line:113] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "互联网专线资费信息", "intent": 1, "type": 2, "text": "互联网专线"}, "msg": "success"}
