@@ -1,1 +1,0 @@
-请识别【此处为任意文本】这句话所归属的意图类别。返回格式需遵循{"UserInput": "UserInput content", "IntentType": "IntentType content"}格式要求
