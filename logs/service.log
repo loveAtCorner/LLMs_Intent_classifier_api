@@ -1,0 +1,425 @@
+2024-08-23 16:43:26,927 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '123', 'content-type': 'application/json'}
+2024-08-23 16:43:26,937 - api.py[line:25] - INFO: Request Body: {'content': '请帮我查询招投标信息并包含企业名称。'}
+2024-08-23 16:43:26,938 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:28,934 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标信息查询
+2024-08-23 16:43:28,939 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:43:31,548 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:43:31,548 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "请帮我查询招投标信息并包含企业名称。", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:43:31,548 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "请帮我查询招投标信息并包含企业名称。", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:43:33,582 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '117', 'content-type': 'application/json'}
+2024-08-23 16:43:33,583 - api.py[line:25] - INFO: Request Body: {'content': '我需要了解某个招标项目的企业法人。'}
+2024-08-23 16:43:33,583 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:35,651 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:43:35,654 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:43:36,278 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:43:38,324 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '165', 'content-type': 'application/json'}
+2024-08-23 16:43:38,326 - api.py[line:25] - INFO: Request Body: {'content': '查询关于下个月的路演活动，并告诉我有哪些企业参加。'}
+2024-08-23 16:43:38,328 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:40,492 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动查询
+2024-08-23 16:43:40,494 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:43:41,305 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:43:41,307 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询关于下个月的路演活动，并告诉我有哪些企业参加。", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:43:41,308 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询关于下个月的路演活动，并告诉我有哪些企业参加。", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:43:43,349 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '93', 'content-type': 'application/json'}
+2024-08-23 16:43:43,349 - api.py[line:25] - INFO: Request Body: {'content': '查看该企业参展的详细信息。'}
+2024-08-23 16:43:43,350 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:45,278 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:43:45,281 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:43:46,072 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:43:46,072 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查看该企业参展的详细信息。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:43:46,073 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查看该企业参展的详细信息。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:43:48,113 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '117', 'content-type': 'application/json'}
+2024-08-23 16:43:48,113 - api.py[line:25] - INFO: Request Body: {'content': '请告知企业法人相关的路演活动详情。'}
+2024-08-23 16:43:48,114 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:50,055 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动详情
+2024-08-23 16:43:50,056 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:43:50,649 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:43:52,680 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-08-23 16:43:52,680 - api.py[line:25] - INFO: Request Body: {'content': '查询企业参展概述并提供企业名称。'}
+2024-08-23 16:43:52,681 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:54,624 - pipeline.py[line:53] - INFO: Intent classification (LLM): 企业参展概述
+2024-08-23 16:43:54,626 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:43:55,212 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:43:57,258 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '189', 'content-type': 'application/json'}
+2024-08-23 16:43:57,258 - api.py[line:25] - INFO: Request Body: {'content': '能否帮我查看一下最新的招标公告，尤其是包含企业名称的部分。'}
+2024-08-23 16:43:57,259 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:43:59,364 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查看招标公告
+2024-08-23 16:43:59,366 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:00,145 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:44:00,146 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我查看一下最新的招标公告，尤其是包含企业名称的部分。", "intent": 3, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:00,146 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我查看一下最新的招标公告，尤其是包含企业名称的部分。", "intent": 3, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:02,195 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '123', 'content-type': 'application/json'}
+2024-08-23 16:44:02,196 - api.py[line:25] - INFO: Request Body: {'content': '我想知道这个项目中标企业的企业法人。'}
+2024-08-23 16:44:02,198 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:04,177 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:44:04,182 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:04,768 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:44:06,827 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '81', 'content-type': 'application/json'}
+2024-08-23 16:44:06,828 - api.py[line:25] - INFO: Request Body: {'content': '想要预约一个路演活动。'}
+2024-08-23 16:44:06,831 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:08,666 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动预约
+2024-08-23 16:44:08,667 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:08,668 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "想要预约一个路演活动。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:44:08,668 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "想要预约一个路演活动。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:44:10,704 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '171', 'content-type': 'application/json'}
+2024-08-23 16:44:10,704 - api.py[line:25] - INFO: Request Body: {'content': '解读一下最新的招投标政策，特别是企业名称相关的部分。'}
+2024-08-23 16:44:10,704 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:12,754 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标政策解读
+2024-08-23 16:44:12,756 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:12,756 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "解读一下最新的招投标政策，特别是企业名称相关的部分。", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:44:12,757 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "解读一下最新的招投标政策，特别是企业名称相关的部分。", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:44:14,809 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '129', 'content-type': 'application/json'}
+2024-08-23 16:44:14,810 - api.py[line:25] - INFO: Request Body: {'content': '查询一下这个企业参与的所有招投标记录。'}
+2024-08-23 16:44:14,812 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:16,731 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询招投标记录
+2024-08-23 16:44:16,733 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:17,551 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:44:17,554 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询一下这个企业参与的所有招投标记录。", "intent": 5, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:17,554 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询一下这个企业参与的所有招投标记录。", "intent": 5, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:19,608 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-08-23 16:44:19,608 - api.py[line:25] - INFO: Request Body: {'content': '请提供该企业法人信息的详细说明。'}
+2024-08-23 16:44:19,609 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:21,627 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:44:21,629 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:22,229 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:44:24,268 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '93', 'content-type': 'application/json'}
+2024-08-23 16:44:24,268 - api.py[line:25] - INFO: Request Body: {'content': '订阅关于该企业的招标信息。'}
+2024-08-23 16:44:24,269 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:26,150 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招标信息订阅
+2024-08-23 16:44:26,152 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:26,153 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "订阅关于该企业的招标信息。", "intent": 6, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:44:26,153 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "订阅关于该企业的招标信息。", "intent": 6, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:44:28,195 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '147', 'content-type': 'application/json'}
+2024-08-23 16:44:28,196 - api.py[line:25] - INFO: Request Body: {'content': '总结一下上个月的路演活动，其中包含哪些企业。'}
+2024-08-23 16:44:28,196 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:30,395 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动总结
+2024-08-23 16:44:30,397 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:30,398 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "总结一下上个月的路演活动，其中包含哪些企业。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:44:30,398 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "总结一下上个月的路演活动，其中包含哪些企业。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:44:32,448 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-08-23 16:44:32,449 - api.py[line:25] - INFO: Request Body: {'content': '这个企业的招投标信息是什么？'}
+2024-08-23 16:44:32,449 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:34,309 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标信息查询
+2024-08-23 16:44:34,312 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:35,151 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:44:35,152 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "这个企业的招投标信息是什么？", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:35,153 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "这个企业的招投标信息是什么？", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:37,210 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '87', 'content-type': 'application/json'}
+2024-08-23 16:44:37,212 - api.py[line:25] - INFO: Request Body: {'content': '提供企业法人的概述信息。'}
+2024-08-23 16:44:37,214 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:39,143 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:44:39,145 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:39,747 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:44:41,785 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '99', 'content-type': 'application/json'}
+2024-08-23 16:44:41,786 - api.py[line:25] - INFO: Request Body: {'content': '查询某个企业的路演活动详情。'}
+2024-08-23 16:44:41,789 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:43,660 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动详情
+2024-08-23 16:44:43,663 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:44,273 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:44:46,329 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '93', 'content-type': 'application/json'}
+2024-08-23 16:44:46,329 - api.py[line:25] - INFO: Request Body: {'content': '请告知企业名称和法人信息。'}
+2024-08-23 16:44:46,330 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:48,292 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:44:48,293 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:48,899 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:44:50,946 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '159', 'content-type': 'application/json'}
+2024-08-23 16:44:50,946 - api.py[line:25] - INFO: Request Body: {'content': '想要了解最新的招投标信息，尤其是企业名称相关的。'}
+2024-08-23 16:44:50,947 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:52,991 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标信息查询
+2024-08-23 16:44:52,995 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:53,853 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:44:53,853 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "想要了解最新的招投标信息，尤其是企业名称相关的。", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:53,853 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "想要了解最新的招投标信息，尤其是企业名称相关的。", "intent": 0, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:44:55,915 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-08-23 16:44:55,917 - api.py[line:25] - INFO: Request Body: {'content': '查看上个月中标企业的法人信息。'}
+2024-08-23 16:44:55,919 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:44:57,879 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:44:57,882 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:44:58,494 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:45:00,551 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '87', 'content-type': 'application/json'}
+2024-08-23 16:45:00,551 - api.py[line:25] - INFO: Request Body: {'content': '请查询该企业的展会信息。'}
+2024-08-23 16:45:00,552 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:02,456 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:45:02,458 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:03,314 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:45:03,314 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "请查询该企业的展会信息。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:03,315 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "请查询该企业的展会信息。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:05,366 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '117', 'content-type': 'application/json'}
+2024-08-23 16:45:05,366 - api.py[line:25] - INFO: Request Body: {'content': '能否告诉我企业名称对应的招标公告？'}
+2024-08-23 16:45:05,366 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:07,289 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查看招标公告
+2024-08-23 16:45:07,291 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:08,138 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:45:08,139 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "能否告诉我企业名称对应的招标公告？", "intent": 3, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:08,140 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "能否告诉我企业名称对应的招标公告？", "intent": 3, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:10,208 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '87', 'content-type': 'application/json'}
+2024-08-23 16:45:10,208 - api.py[line:25] - INFO: Request Body: {'content': '查询企业参展的所有信息。'}
+2024-08-23 16:45:10,209 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:12,129 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:45:12,134 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:12,992 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:45:12,992 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询企业参展的所有信息。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:12,993 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询企业参展的所有信息。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:15,025 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '165', 'content-type': 'application/json'}
+2024-08-23 16:45:15,025 - api.py[line:25] - INFO: Request Body: {'content': '我需要预约一个路演活动，并且查看该企业的参与情况。'}
+2024-08-23 16:45:15,026 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:17,201 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动预约
+2024-08-23 16:45:17,203 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:17,204 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "我需要预约一个路演活动，并且查看该企业的参与情况。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:45:17,204 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我需要预约一个路演活动，并且查看该企业的参与情况。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:45:19,253 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '141', 'content-type': 'application/json'}
+2024-08-23 16:45:19,253 - api.py[line:25] - INFO: Request Body: {'content': '能否帮我解读一下与企业名称相关的招标政策？'}
+2024-08-23 16:45:19,254 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:21,545 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标政策解读
+2024-08-23 16:45:21,547 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:21,548 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我解读一下与企业名称相关的招标政策？", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:45:21,548 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我解读一下与企业名称相关的招标政策？", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:45:23,591 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '129', 'content-type': 'application/json'}
+2024-08-23 16:45:23,591 - api.py[line:25] - INFO: Request Body: {'content': '我需要查询企业法人对应的路演活动总结。'}
+2024-08-23 16:45:23,592 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:25,617 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动总结
+2024-08-23 16:45:25,626 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:25,627 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "我需要查询企业法人对应的路演活动总结。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:45:25,628 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我需要查询企业法人对应的路演活动总结。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:45:27,694 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '141', 'content-type': 'application/json'}
+2024-08-23 16:45:27,694 - api.py[line:25] - INFO: Request Body: {'content': '查看企业参展的详情，特别是企业名称相关的。'}
+2024-08-23 16:45:27,694 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:29,781 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:45:29,789 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:30,667 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:45:30,668 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查看企业参展的详情，特别是企业名称相关的。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:30,668 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查看企业参展的详情，特别是企业名称相关的。", "intent": 2, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:32,711 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '129', 'content-type': 'application/json'}
+2024-08-23 16:45:32,712 - api.py[line:25] - INFO: Request Body: {'content': '查询最近的招投标记录，并包含企业名称。'}
+2024-08-23 16:45:32,713 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:34,748 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询招投标记录
+2024-08-23 16:45:34,750 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:35,629 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:45:35,629 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询最近的招投标记录，并包含企业名称。", "intent": 5, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:35,629 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询最近的招投标记录，并包含企业名称。", "intent": 5, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:37,674 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '111', 'content-type': 'application/json'}
+2024-08-23 16:45:37,675 - api.py[line:25] - INFO: Request Body: {'content': '查看企业法人参与的最新路演活动。'}
+2024-08-23 16:45:37,675 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:39,694 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动查询
+2024-08-23 16:45:39,697 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:40,567 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—
+2024-08-23 16:45:40,567 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查看企业法人参与的最新路演活动。", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:40,567 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查看企业法人参与的最新路演活动。", "intent": 1, "type": 0, "text": ""}, "msg": "success"}
+2024-08-23 16:45:42,601 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '117', 'content-type': 'application/json'}
+2024-08-23 16:45:42,602 - api.py[line:25] - INFO: Request Body: {'content': '请告知企业名称对应的路演活动详情。'}
+2024-08-23 16:45:42,602 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:45:44,574 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动详情
+2024-08-23 16:45:44,576 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:45:45,204 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:53:51,688 - my_logger.py[line:44] - INFO: START OK !!!
+2024-08-23 16:54:00,729 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '189', 'content-type': 'application/json'}
+2024-08-23 16:54:00,737 - api.py[line:25] - INFO: Request Body: {'content': '请帮我查询阿里巴巴集团有限公司的招投标信息并包含企业名称。'}
+2024-08-23 16:54:00,738 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:02,844 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标信息查询
+2024-08-23 16:54:02,846 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:03,735 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—阿里巴巴集团有限公司
+2024-08-23 16:54:03,736 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "请帮我查询阿里巴巴集团有限公司的招投标信息并包含企业名称。", "intent": 0, "type": 0, "text": "阿里巴巴集团有限公司"}, "msg": "success"}
+2024-08-23 16:54:03,737 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "请帮我查询阿里巴巴集团有限公司的招投标信息并包含企业名称。", "intent": 0, "type": 0, "text": "阿里巴巴集团有限公司"}, "msg": "success"}
+2024-08-23 16:54:05,784 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '189', 'content-type': 'application/json'}
+2024-08-23 16:54:05,785 - api.py[line:25] - INFO: Request Body: {'content': '我需要了解阿里巴巴集团有限公司这个招标项目的企业法人马云。'}
+2024-08-23 16:54:05,785 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:07,903 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:54:07,913 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:08,538 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:54:10,576 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '243', 'content-type': 'application/json'}
+2024-08-23 16:54:10,576 - api.py[line:25] - INFO: Request Body: {'content': '查询关于下个月的路演活动，并告诉我有哪些企业如腾讯科技（深圳）有限公司参加。'}
+2024-08-23 16:54:10,577 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:12,954 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动查询
+2024-08-23 16:54:12,963 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:13,988 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—腾讯科技（深圳）有限公司
+2024-08-23 16:54:13,989 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询关于下个月的路演活动，并告诉我有哪些企业如腾讯科技（深圳）有限公司参加。", "intent": 1, "type": 0, "text": "腾讯科技（深圳）有限公司"}, "msg": "success"}
+2024-08-23 16:54:13,989 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询关于下个月的路演活动，并告诉我有哪些企业如腾讯科技（深圳）有限公司参加。", "intent": 1, "type": 0, "text": "腾讯科技（深圳）有限公司"}, "msg": "success"}
+2024-08-23 16:54:16,040 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '147', 'content-type': 'application/json'}
+2024-08-23 16:54:16,040 - api.py[line:25] - INFO: Request Body: {'content': '查看腾讯科技（深圳）有限公司参展的详细信息。'}
+2024-08-23 16:54:16,041 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:18,126 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:54:18,128 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:19,147 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—腾讯科技（深圳）有限公司
+2024-08-23 16:54:19,149 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查看腾讯科技（深圳）有限公司参展的详细信息。", "intent": 2, "type": 0, "text": "腾讯科技（深圳）有限公司"}, "msg": "success"}
+2024-08-23 16:54:19,150 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查看腾讯科技（深圳）有限公司参展的详细信息。", "intent": 2, "type": 0, "text": "腾讯科技（深圳）有限公司"}, "msg": "success"}
+2024-08-23 16:54:21,208 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '135', 'content-type': 'application/json'}
+2024-08-23 16:54:21,210 - api.py[line:25] - INFO: Request Body: {'content': '请告知企业法人马化腾相关的路演活动详情。'}
+2024-08-23 16:54:21,211 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:23,270 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动详情
+2024-08-23 16:54:23,272 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:23,959 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:54:26,011 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '189', 'content-type': 'application/json'}
+2024-08-23 16:54:26,011 - api.py[line:25] - INFO: Request Body: {'content': '查询宁德时代新能源科技股份有限公司参展概述并提供企业名称。'}
+2024-08-23 16:54:26,012 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:28,124 - pipeline.py[line:53] - INFO: Intent classification (LLM): 企业参展概述
+2024-08-23 16:54:28,125 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:28,723 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:54:30,767 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '285', 'content-type': 'application/json'}
+2024-08-23 16:54:30,767 - api.py[line:25] - INFO: Request Body: {'content': '能否帮我查看一下最新的招标公告，尤其是包含百度在线网络技术（北京）有限公司企业名称的部分。'}
+2024-08-23 16:54:30,768 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:33,234 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查看招标公告
+2024-08-23 16:54:33,243 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:34,319 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—百度在线网络技术（北京）有限公司
+2024-08-23 16:54:34,320 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我查看一下最新的招标公告，尤其是包含百度在线网络技术（北京）有限公司企业名称的部分。", "intent": 3, "type": 0, "text": "百度在线网络技术（北京）有限公司"}, "msg": "success"}
+2024-08-23 16:54:34,320 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我查看一下最新的招标公告，尤其是包含百度在线网络技术（北京）有限公司企业名称的部分。", "intent": 3, "type": 0, "text": "百度在线网络技术（北京）有限公司"}, "msg": "success"}
+2024-08-23 16:54:36,363 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '189', 'content-type': 'application/json'}
+2024-08-23 16:54:36,363 - api.py[line:25] - INFO: Request Body: {'content': '我想知道这个项目中标企业华为技术有限公司的企业法人任正非。'}
+2024-08-23 16:54:36,364 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:38,565 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:54:38,567 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:39,270 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:54:41,321 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '159', 'content-type': 'application/json'}
+2024-08-23 16:54:41,321 - api.py[line:25] - INFO: Request Body: {'content': '想要预约一个小米科技有限责任公司参与的路演活动。'}
+2024-08-23 16:54:41,322 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:43,363 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动预约
+2024-08-23 16:54:43,365 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:43,366 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "想要预约一个小米科技有限责任公司参与的路演活动。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:54:43,366 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "想要预约一个小米科技有限责任公司参与的路演活动。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:54:45,419 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '243', 'content-type': 'application/json'}
+2024-08-23 16:54:45,420 - api.py[line:25] - INFO: Request Body: {'content': '解读一下最新的招投标政策，特别是腾讯科技（深圳）有限公司企业名称相关的部分。'}
+2024-08-23 16:54:45,423 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:47,696 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标政策解读
+2024-08-23 16:54:47,705 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:47,707 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "解读一下最新的招投标政策，特别是腾讯科技（深圳）有限公司企业名称相关的部分。", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:54:47,708 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "解读一下最新的招投标政策，特别是腾讯科技（深圳）有限公司企业名称相关的部分。", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:54:49,765 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '165', 'content-type': 'application/json'}
+2024-08-23 16:54:49,766 - api.py[line:25] - INFO: Request Body: {'content': '查询一下字节跳动科技有限公司参与的所有招投标记录。'}
+2024-08-23 16:54:49,767 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:51,868 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询招投标记录
+2024-08-23 16:54:51,877 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:52,895 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—字节跳动科技有限公司
+2024-08-23 16:54:52,897 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询一下字节跳动科技有限公司参与的所有招投标记录。", "intent": 5, "type": 0, "text": "字节跳动科技有限公司"}, "msg": "success"}
+2024-08-23 16:54:52,898 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询一下字节跳动科技有限公司参与的所有招投标记录。", "intent": 5, "type": 0, "text": "字节跳动科技有限公司"}, "msg": "success"}
+2024-08-23 16:54:54,962 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '201', 'content-type': 'application/json'}
+2024-08-23 16:54:54,963 - api.py[line:25] - INFO: Request Body: {'content': '请提供京东商城集团股份有限公司的企业法人刘强东信息的详细说明。'}
+2024-08-23 16:54:54,966 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:54:57,204 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:54:57,206 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:54:57,905 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:54:59,955 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '135', 'content-type': 'application/json'}
+2024-08-23 16:54:59,955 - api.py[line:25] - INFO: Request Body: {'content': '订阅关于美团点评集团有限公司的招标信息。'}
+2024-08-23 16:54:59,956 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:01,928 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招标信息订阅
+2024-08-23 16:55:01,930 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:01,931 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "订阅关于美团点评集团有限公司的招标信息。", "intent": 6, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:55:01,931 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "订阅关于美团点评集团有限公司的招标信息。", "intent": 6, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:55:03,980 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '237', 'content-type': 'application/json'}
+2024-08-23 16:55:03,980 - api.py[line:25] - INFO: Request Body: {'content': '总结一下上个月的路演活动，其中包含宁德时代新能源科技股份有限公司企业参加。'}
+2024-08-23 16:55:03,981 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:06,282 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动总结
+2024-08-23 16:55:06,284 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:06,284 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "总结一下上个月的路演活动，其中包含宁德时代新能源科技股份有限公司企业参加。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:55:06,285 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "总结一下上个月的路演活动，其中包含宁德时代新能源科技股份有限公司企业参加。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:55:08,329 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '159', 'content-type': 'application/json'}
+2024-08-23 16:55:08,330 - api.py[line:25] - INFO: Request Body: {'content': '这个企业滴滴出行科技有限公司的招投标信息是什么？'}
+2024-08-23 16:55:08,330 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:10,350 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标信息查询
+2024-08-23 16:55:10,352 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:12,409 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—滴滴出行科技有限公司
+2024-08-23 16:55:12,409 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "这个企业滴滴出行科技有限公司的招投标信息是什么？", "intent": 0, "type": 0, "text": "滴滴出行科技有限公司"}, "msg": "success"}
+2024-08-23 16:55:12,409 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "这个企业滴滴出行科技有限公司的招投标信息是什么？", "intent": 0, "type": 0, "text": "滴滴出行科技有限公司"}, "msg": "success"}
+2024-08-23 16:55:14,460 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '105', 'content-type': 'application/json'}
+2024-08-23 16:55:14,460 - api.py[line:25] - INFO: Request Body: {'content': '提供企业法人张一鸣的概述信息。'}
+2024-08-23 16:55:14,461 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:17,750 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:55:17,751 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:18,513 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:55:20,566 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '147', 'content-type': 'application/json'}
+2024-08-23 16:55:20,567 - api.py[line:25] - INFO: Request Body: {'content': '查询某个企业华为技术有限公司的路演活动详情。'}
+2024-08-23 16:55:20,567 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:22,762 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动详情
+2024-08-23 16:55:22,764 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:23,534 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:55:25,573 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '165', 'content-type': 'application/json'}
+2024-08-23 16:55:25,573 - api.py[line:25] - INFO: Request Body: {'content': '请告知企业名称小米科技有限责任公司和法人雷军信息。'}
+2024-08-23 16:55:25,574 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:27,770 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:55:27,772 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:28,468 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:55:30,518 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '219', 'content-type': 'application/json'}
+2024-08-23 16:55:30,519 - api.py[line:25] - INFO: Request Body: {'content': '想要了解最新的招投标信息，尤其是阿里巴巴集团有限公司企业名称相关的。'}
+2024-08-23 16:55:30,521 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:32,701 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标信息查询
+2024-08-23 16:55:32,711 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:33,688 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—阿里巴巴集团有限公司
+2024-08-23 16:55:33,689 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "想要了解最新的招投标信息，尤其是阿里巴巴集团有限公司企业名称相关的。", "intent": 0, "type": 0, "text": "阿里巴巴集团有限公司"}, "msg": "success"}
+2024-08-23 16:55:33,690 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "想要了解最新的招投标信息，尤其是阿里巴巴集团有限公司企业名称相关的。", "intent": 0, "type": 0, "text": "阿里巴巴集团有限公司"}, "msg": "success"}
+2024-08-23 16:55:35,745 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '177', 'content-type': 'application/json'}
+2024-08-23 16:55:35,746 - api.py[line:25] - INFO: Request Body: {'content': '查看上个月中标企业美团点评集团有限公司的法人信息王兴。'}
+2024-08-23 16:55:35,746 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:37,930 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业法人信息
+2024-08-23 16:55:37,933 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:38,627 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:55:40,696 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '129', 'content-type': 'application/json'}
+2024-08-23 16:55:40,697 - api.py[line:25] - INFO: Request Body: {'content': '请查询字节跳动科技有限公司的展会信息。'}
+2024-08-23 16:55:40,698 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:42,824 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:55:42,826 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:43,905 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—字节跳动科技有限公司
+2024-08-23 16:55:43,905 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "请查询字节跳动科技有限公司的展会信息。", "intent": 2, "type": 0, "text": "字节跳动科技有限公司"}, "msg": "success"}
+2024-08-23 16:55:43,905 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "请查询字节跳动科技有限公司的展会信息。", "intent": 2, "type": 0, "text": "字节跳动科技有限公司"}, "msg": "success"}
+2024-08-23 16:55:45,959 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '213', 'content-type': 'application/json'}
+2024-08-23 16:55:45,960 - api.py[line:25] - INFO: Request Body: {'content': '能否告诉我企业名称百度在线网络技术（北京）有限公司对应的招标公告？'}
+2024-08-23 16:55:45,960 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:48,215 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查看招标公告
+2024-08-23 16:55:48,217 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:49,394 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—百度在线网络技术（北京）有限公司
+2024-08-23 16:55:49,395 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "能否告诉我企业名称百度在线网络技术（北京）有限公司对应的招标公告？", "intent": 3, "type": 0, "text": "百度在线网络技术（北京）有限公司"}, "msg": "success"}
+2024-08-23 16:55:49,396 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "能否告诉我企业名称百度在线网络技术（北京）有限公司对应的招标公告？", "intent": 3, "type": 0, "text": "百度在线网络技术（北京）有限公司"}, "msg": "success"}
+2024-08-23 16:55:51,446 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '147', 'content-type': 'application/json'}
+2024-08-23 16:55:51,447 - api.py[line:25] - INFO: Request Body: {'content': '查询腾讯科技（深圳）有限公司参展的所有信息。'}
+2024-08-23 16:55:51,449 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:53,553 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询企业参展信息
+2024-08-23 16:55:53,555 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:54,628 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—腾讯科技（深圳）有限公司
+2024-08-23 16:55:54,628 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询腾讯科技（深圳）有限公司参展的所有信息。", "intent": 2, "type": 0, "text": "腾讯科技（深圳）有限公司"}, "msg": "success"}
+2024-08-23 16:55:54,628 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询腾讯科技（深圳）有限公司参展的所有信息。", "intent": 2, "type": 0, "text": "腾讯科技（深圳）有限公司"}, "msg": "success"}
+2024-08-23 16:55:56,665 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '261', 'content-type': 'application/json'}
+2024-08-23 16:55:56,665 - api.py[line:25] - INFO: Request Body: {'content': '我需要预约一个宁德时代新能源科技股份有限公司的路演活动，并且查看该企业的参与情况。'}
+2024-08-23 16:55:56,666 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:55:59,166 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动预约
+2024-08-23 16:55:59,176 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:55:59,177 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "我需要预约一个宁德时代新能源科技股份有限公司的路演活动，并且查看该企业的参与情况。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:55:59,178 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我需要预约一个宁德时代新能源科技股份有限公司的路演活动，并且查看该企业的参与情况。", "intent": 4, "type": 0, "text": null}, "msg": "success"}
+2024-08-23 16:56:01,237 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '201', 'content-type': 'application/json'}
+2024-08-23 16:56:01,237 - api.py[line:25] - INFO: Request Body: {'content': '能否帮我解读一下与企业名称阿里巴巴集团有限公司相关的招标政策？'}
+2024-08-23 16:56:01,238 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:56:03,424 - pipeline.py[line:53] - INFO: Intent classification (LLM): 招投标政策解读
+2024-08-23 16:56:03,426 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:56:03,426 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我解读一下与企业名称阿里巴巴集团有限公司相关的招标政策？", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:56:03,426 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "能否帮我解读一下与企业名称阿里巴巴集团有限公司相关的招标政策？", "intent": 4, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:56:05,479 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '147', 'content-type': 'application/json'}
+2024-08-23 16:56:05,480 - api.py[line:25] - INFO: Request Body: {'content': '我需要查询企业法人刘强东对应的路演活动总结。'}
+2024-08-23 16:56:05,481 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:56:07,623 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动总结
+2024-08-23 16:56:07,625 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:56:07,625 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "我需要查询企业法人刘强东对应的路演活动总结。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:56:07,626 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "我需要查询企业法人刘强东对应的路演活动总结。", "intent": 6, "type": 1, "text": null}, "msg": "success"}
+2024-08-23 16:56:09,674 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '201', 'content-type': 'application/json'}
+2024-08-23 16:56:09,674 - api.py[line:25] - INFO: Request Body: {'content': '查看京东商城集团股份有限公司参展的详情，特别是企业名称相关的。'}
+2024-08-23 16:56:09,675 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:56:11,880 - pipeline.py[line:53] - INFO: Intent classification (LLM): 企业参展概述
+2024-08-23 16:56:11,882 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:56:12,670 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
+2024-08-23 16:56:14,717 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '189', 'content-type': 'application/json'}
+2024-08-23 16:56:14,717 - api.py[line:25] - INFO: Request Body: {'content': '查询最近的招投标记录，并包含滴滴出行科技有限公司企业名称。'}
+2024-08-23 16:56:14,718 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:56:16,883 - pipeline.py[line:53] - INFO: Intent classification (LLM): 查询招投标记录
+2024-08-23 16:56:16,885 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:56:17,937 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—滴滴出行科技有限公司
+2024-08-23 16:56:17,938 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查询最近的招投标记录，并包含滴滴出行科技有限公司企业名称。", "intent": 5, "type": 0, "text": "滴滴出行科技有限公司"}, "msg": "success"}
+2024-08-23 16:56:17,938 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查询最近的招投标记录，并包含滴滴出行科技有限公司企业名称。", "intent": 5, "type": 0, "text": "滴滴出行科技有限公司"}, "msg": "success"}
+2024-08-23 16:56:19,991 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '123', 'content-type': 'application/json'}
+2024-08-23 16:56:19,991 - api.py[line:25] - INFO: Request Body: {'content': '查看企业法人程维参与的最新路演活动。'}
+2024-08-23 16:56:19,992 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:56:22,063 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动查询
+2024-08-23 16:56:22,065 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:56:22,978 - pipeline.py[line:76] - INFO: Entity extraction (LLM): Type—企业名称, Value—无
+2024-08-23 16:56:22,978 - pipeline.py[line:115] - INFO: Final interface response: {"errorcode": "1", "result": "1", "data": {"content": "查看企业法人程维参与的最新路演活动。", "intent": 1, "type": 0, "text": "无"}, "msg": "success"}
+2024-08-23 16:56:22,978 - api.py[line:32] - INFO: Response content: {"errorcode": "1", "result": "1", "data": {"content": "查看企业法人程维参与的最新路演活动。", "intent": 1, "type": 0, "text": "无"}, "msg": "success"}
+2024-08-23 16:56:25,025 - api.py[line:21] - INFO: Request Headers: {'host': 'localhost:8000', 'user-agent': 'python-requests/2.31.0', 'accept-encoding': 'gzip, deflate', 'accept': '*/*', 'connection': 'keep-alive', 'content-length': '165', 'content-type': 'application/json'}
+2024-08-23 16:56:25,025 - api.py[line:25] - INFO: Request Body: {'content': '请告知企业名称华为技术有限公司对应的路演活动详情。'}
+2024-08-23 16:56:25,026 - pipeline.py[line:45] - INFO: Intent classification (rules): others
+2024-08-23 16:56:27,135 - pipeline.py[line:53] - INFO: Intent classification (LLM): 路演活动详情
+2024-08-23 16:56:27,140 - pipeline.py[line:67] - INFO: Entity extraction (rules): Type—None, Value—None
+2024-08-23 16:56:27,774 - pipeline.py[line:79] - ERROR: No LLM API found for entity type: 企业法人
