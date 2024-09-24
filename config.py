@@ -17,7 +17,7 @@ HEADERS = {
     'Content-Type': 'application/json'
 }
 
-# 意图
+# 意图（所有意图的英文和中文顺序是一一对应的）
 INTENTS_ch = [
     "招投标信息查询", 
     "招投标项目概述", 
@@ -54,26 +54,26 @@ INTENTS_en = [
 ]
 
 # 实体
-ENTITYS_ch = ["企业名称", "企业法人"]
-ENTITYS_en = ["enterprise_name", "enterprise_legal_person"]
+ENTITYS_ch = ["企业名称", "产品名称", "行业名称"]
+ENTITYS_en = ["CompanyName", "ProductName", "IndustryName"]
 
 
 # 意图和实体的对应关系
 INTENTS_ENTITYS_MAPPER = {
-"招投标信息查询": "企业名称",
-"招投标项目概述": "企业法人",
-"路演活动查询": "企业名称",
-"路演活动详情": "企业法人",
-"查询企业参展信息": "企业名称",
-"企业参展概述": "企业法人",
-"查看招标公告": "企业名称",
-"查询中标企业": "企业法人",
+"招投标信息查询": "企业名称 产品名称 行业名称",
+"招投标项目概述": "企业名称 产品名称 行业名称",
+"路演活动查询": "企业名称 产品名称 行业名称",
+"路演活动详情": "企业名称 产品名称 行业名称",
+"查询企业参展信息": "企业名称 产品名称 行业名称",
+"企业参展概述": "企业名称 产品名称 行业名称",
+"查看招标公告": "企业名称 产品名称 行业名称",
+"查询中标企业": "企业名称 产品名称 行业名称",
 "路演活动预约": None,
-"招投标政策解读": None,
-"查询招投标记录": "企业名称",
-"查询企业法人信息": "企业法人",
-"招标信息订阅": None,
-"路演活动总结": None,
+"招投标政策解读": "企业名称 产品名称 行业名称",
+"查询招投标记录": "企业名称 产品名称 行业名称",
+"查询企业法人信息": "企业名称 产品名称 行业名称",
+"招标信息订阅": "企业名称 产品名称 行业名称",
+"路演活动总结": "企业名称 产品名称 行业名称",
 "其他": None,
 }
 
@@ -92,15 +92,18 @@ NUM_OF_ENTITY = 3
 ENTITY_PROMPTS = {
     "企业名称": {
         "system_prompt": "./prompt/entity/system_prompt_entity_1.txt",
-        "user_prompt": "./prompt/entity/user_prompt_entity_1.txt"
+        "user_prompt": "./prompt/entity/user_prompt_entity_1.txt",
+        "entity_key": "CompanyName"
     },
-    "企业法人": {
+    "产品名称": {
         "system_prompt": "./prompt/entity/system_prompt_entity_2.txt",
-        "user_prompt": "./prompt/entity/user_prompt_entity_2.txt"
+        "user_prompt": "./prompt/entity/user_prompt_entity_2.txt",
+        "entity_key": "ProductName"
     },
     "可添加一": {
         "system_prompt": "./prompt/entity/system_prompt_entity_3.txt",
-        "user_prompt": "./prompt/entity/user_prompt_entity_3.txt"
+        "user_prompt": "./prompt/entity/user_prompt_entity_3.txt",
+        "entity_key": ""
     }
 }
 

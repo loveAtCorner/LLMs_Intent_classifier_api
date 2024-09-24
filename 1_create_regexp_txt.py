@@ -22,8 +22,8 @@ def create_txt_files(file_names, directory):
 
 def main():
     # Directories for entities and intents
-    entity_directory = INTENT_REGEXP_DIRECTORY
-    intent_directory = ENTITY_REGEXP_DIRECTORY
+    intent_directory = INTENT_REGEXP_DIRECTORY
+    entity_directory = ENTITY_REGEXP_DIRECTORY
     
     # Create files for entities
     create_txt_files(ENTITYS_en, entity_directory)

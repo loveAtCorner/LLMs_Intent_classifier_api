@@ -14,7 +14,7 @@ with open('api_response.txt', 'w', encoding='utf-8') as answer_file:
         question = question.strip()  # 移除可能的换行符
         # 定义请求数据
         data = {
-                "content": question,
+                "content": question
             }
         
         # 发送POST请求
