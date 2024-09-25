@@ -196,7 +196,7 @@ def intent_classify_service(query):
     print("大模型分类结果:", final_intent)
 
     # 映射英文意图到中文
-    if final_intent.isalpha() and final_intent.isascii():
+    if final_intent.isascii():
         final_intent_ch = map_intent_en_to_ch(final_intent)
         required_entity_type = INTENTS_ENTITYS_MAPPER.get(final_intent_ch)
     else:
